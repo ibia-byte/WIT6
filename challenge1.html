@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="challenge1.css">
+</head>
+<body style="background-color: #e9ebee;width: 100%;">
+  
+  <nav id="nav">
+    <header><h1>Beginning HTML & CSS</h1></header><br/><br/>
+    <div class="topnav">
+    <ul>
+      <a class="nav-link" href="#Navbar">
+        <li>Navbar</li>
+      </a>
+    <a class="nav-link" href="#Introduction" rel="internal">
+      <li>Introduction</li>
+    </a>
+    <a class="nav-link" href="#Tags and elements" rel="internal">
+      <li>Tags and elements</li>
+    </a>
+    <a class="nav-link" href="#SourCe Code" rel="internal">
+      <li>SourCe Code</li>
+    </a>
+    <a class="nav-link" href="#Links and Style Sheets" rel="internal">
+      <li>Links and Style Sheets</li>
+    </a>
+    <a class="nav-link" href="#The nav element" rel="internal">
+      <li>The nav element</li>
+    </a>
+    </ul>
+    </div>
+    </nav>
+  </nav>
+  <br/>
+  <br/>
+  <main id=" main-doc">
+    <section class="main-section" id="Introduction">
+      <header><h2>Introduction</h2></header>
+      <p>This book presents a practical introduction to the process of making websites using a blend of the latest and greatest
+      techniques, as well as a healthy understanding of some older technologies that have been around for a while. The
+      techniques described in this book are informed by having solved real-world problems; so, although it has an eye toward
+      the future it’s grounded in the act of making websites today.</p>
+
+      <p>HTML is a markup language, which may sound complicated until you realize that you come across markup every day. When
+      creating a document in a word processor, you can add styles to the text to explain the document’s structure. For
+      example, you can distinguish headings from the main body of the text using a heading style (usually with a larger font)
+      CSS works by enabling you to associate rules with the elements that appear in a web page. These rules govern how the
+      content of those elements should be rendered.
+</p>
+      <li>Not only will you learn the code that makes up HTML, but you will also see how to apply this code so you can create
+      sophisticated layouts for your pages, positioning text and images where you would like them to appear and getting the colors and fonts you want</li>
+    </section>
+      <section class="main-section" id="Tags and elements ">
+        <header><h2>Tags and elements</h2></header>
+        <p>A pair of tags and the content these include are known as an element.The opening tag says, “This is the beginning of a heading” and the closing tag says, “This is the end of a heading.”
+        Like most tags in HTML, the text inside the angled brackets explains the purpose of the tag</p>
+        <p>You often find that terms from a family tree are used to describe the relationships between elements. For example, an
+        element that contains another element is known as the parent, whereas the element that’s between the parent element’s
+        opening and closing tags is called a child of that element.
+      </p>
+        <li>You must understand the basic distinction between tags and elements: A tag usually consists of left-angle and
+        right-angle brackets and letters and numbers between those brackets, whereas elements are the opening and closing tags
+        plus anything between the two tags</li>
+      </section>
+      <section class="main-section" id="">
+        <header><h2>Source Code</h2>
+</header>
+        <p>As you work through the examples in this book, you may choose either to type in all the code manually or to use the
+        source code files that accompany the book. All of the source code used in this book is available for download at
+        www.wrox.com. Specifically for this book, the code download is on the Download Code tab at
+        www.wrox.com/remtitle.cgi?isbn=9781118340189.</p>
+        <p>Once you download the code, just decompress it with your favorite compression tool. Alternately, you can go to the main
+        Wrox code download page at www.wrox.com/dynamic/books/download.aspx to see the code available for this book and all
+        other Wrox books.
+</p>
+        <li>If you find an error in this book, such as a spelling mistake or faulty piece of code, I would be very grateful for your
+        feedback. By sending in errata you may save another reader hours of frustration, and at the same time you will be
+        helping to provide even higher quality information.</li>
+      </section>
+      <section class="main-section" id="Links and Style Sheets">
+        <header>Links and Style Sheets</header>
+        <p>Adding a style sheet relies on the
+        link element. The
+        link element also uses the href attribute, which you learned about already, to point to a resource on the web. In this
+        case, instead of pointing to a new page or website to visit when a link is clicked, it points to the location of a file
+        containing style information for the current page. The rel (for relation) attribute indicates that the linked document
+        is a style sheet and should be handled accordingly</p>
+        <code><link rel="stylesheet" href="challenge1.css">
+</code>
+        <p>You need to start using one piece of JavaScript. Now that you know how to add a script to the page, you’re ready to
+        learn about the HTML5 Shiv and Modernizr.</p>
+        <li>Adding a script to the page is even easier. </li>
+      </section>
+      <section class="main-section" id="The nav element">
+        <header><h2>The nav element</h2></header>
+        <p>The nav element represents a navigation section of the page, containing a list of links to other pages or site
+          sections within the site or application. Because the Example Café site is going to have more than one page, look at
+          one way to mark up a simple menu linking to other pages on the site. In this example you can see a series of <p> tags,
+          containing links to the site’s other pages. </p>
+            <code>
+              <p><a href="recipes.html">Recipes</p>
+              <p><a href="menu.html">Menu</a></p>
+              <p><a href="opening_times.html">Opening Times</a></p>
+            
+</code>
+        <p>Later you learn about working with lists and learn a more common pattern
+        for marking up navigational elements. For now, just focus on the use of the <nav> element</p>
+        <li>lists can be ordered, where we use numbers or unordered where forexample bullets are used</li>
+      </section>
+      <section class="main-section" id="Reference">
+        <header>Reference</header>
+        <article>
+          <li>All the documentation in this page is taken from <a
+              href="https://www.wrox.com"></a>
+        </article>
+      </section>
+
+  </main>  
+</body>
+</html>
