@@ -5,5 +5,8 @@ test("test if the mark is a number", () => {
 
 });
 test("test if the mark is a number", () => {
-expect(mark.isValidate()).toBe("true");
+expect(mark.isValidate()).toBe(true);
+});
+test("testing the grade Mark", () =>{
+  expect(mark.computeScore()).toBe('A')
 });
